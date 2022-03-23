@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_daily_reports/{{getPreviousDayMonth}}-{{getPreviousDayDay}}-{{getPreviousDayYear}}.csv",
+    "destination": {
+        "bucket": "xentity-datalake-example",
+        "key": "covid/{{getPreviousDayYear}}/{{getPreviousDayMonth}}/{{getPreviousDayDay}}/{{getPreviousDayYear}}-{{getPreviousDayMonth}}-{{getPreviousDayDay}}.csv"
+    },
+    "params": {
+    }
+}
