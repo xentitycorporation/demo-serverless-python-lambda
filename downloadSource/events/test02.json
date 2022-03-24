@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://data.colorado.gov/api/views/4ykn-tg5h/rows.csv?accessType=DOWNLOAD",
+    "destination": {
+        "bucket": "xentity-datalake-example",
+        "key": "data.colorado.gov/business_entities.csv"
+    },
+    "params": {
+    }
+}

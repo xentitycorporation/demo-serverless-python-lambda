@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://download.geofabrik.de/central-america-latest.osm.pbf",
+    "destination": {
+        "bucket": "xentity-datalake-example",
+        "key": "osm/central-america-latest.osm.pbf"
+    },
+    "params": {
+    }
+}

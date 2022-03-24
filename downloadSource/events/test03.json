@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://data.colorado.gov/api/geospatial/trm9-dm4m?method=export&format=Shapefile",
+    "destination": {
+        "bucket": "xentity-datalake-example",
+        "key": "data.colorado.gov/highway_mileposts.shp.zip"
+    },
+    "params": {
+    }
+}

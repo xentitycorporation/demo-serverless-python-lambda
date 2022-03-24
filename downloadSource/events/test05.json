@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://gp-prd-us-east-1-geoplatform-archive.s3.amazonaws.com/9d372326_1e3b_4712_a014_269563783986.shp.zip",
+    "destination": {
+        "bucket": "xentity-datalake-example",
+        "key": "gp/9d372326_1e3b_4712_a014_269563783986.shp.zip"
+    },
+    "params": {
+    }
+}
