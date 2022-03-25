@@ -36,3 +36,6 @@ To deploy run the command `npm run stg:deploy` or `npm run prd:deploy` depending
 - Install `npm install -g cwtail` if you want to have an easy way to view CloudWatch events from the Lambda being invoked. More details at https://github.com/kennu/cwtail
 - Alternative tool can be installed at https://github.com/lucagrulla/cw (Not tested but more features)
 - Run `stg:test:downloadsource` and it should invoke your Cloud function with the event01.json file and print the output to response.json
+
+# References
+- https://awscli.amazonaws.com/v2/documentation/api/latest/reference/lambda/invoke.html
